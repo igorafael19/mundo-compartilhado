@@ -1,0 +1,20 @@
+# dependências
+node_modules
+
+# build
+dist
+dist-ssr
+
+# cache do Vite
+.vite
+
+# sistema
+.DS_Store
+Thumbs.db
+
+# arquivos locais
+*.local
+.env
+
+# IMPORTANTE: os modelos .glb em public/models/ DEVEM ir para o repositório.
+# Não adicione public/ aqui.
