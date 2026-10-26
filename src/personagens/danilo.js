@@ -10,7 +10,7 @@
 export default {
   key: 'hulk',
   dono: 'Danilo',
-  nome: '💚 Hulk',
+  nome: 'Hulk',
   cor: '#27ae60',
   ordem: 2,
 
