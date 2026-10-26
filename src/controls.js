@@ -1,8 +1,3 @@
-// ============================================================
-//  controls.js — DEV 4
-//  Responsável: câmera orbital + UI de troca de animações
-// ============================================================
-
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 // Troca de animação (local — opera no char recebido, sem depender

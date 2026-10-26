@@ -1,8 +1,3 @@
-// ============================================================
-//  environment.js — DEV 2
-//  Responsável: mapa (posto de gasolina), chão, luzes, céu
-// ============================================================
-
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 

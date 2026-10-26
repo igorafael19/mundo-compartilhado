@@ -1,8 +1,3 @@
-// ============================================================
-//  scene.js — DEV 1
-//  Responsável: configuração base da cena (câmera, renderer)
-// ============================================================
-
 import * as THREE from 'three';
 
 export function createScene() {

@@ -2,10 +2,6 @@
 //  PERSONAGEM DO WELBERTH
 //  Rhino (Marvel Strike Force)
 //  https://sketchfab.com/3d-models/rhino-marvel-strike-force-c823f16878684b3eb72ce94d96cfcab0
-// ============================================================
-//  Coloque este arquivo em  src/personagens/  e o Rhino aparece
-//  sozinho na cena. O modelo .glb deve estar em  public/models/.
-// ============================================================
 
 export default {
   key: 'rhino',

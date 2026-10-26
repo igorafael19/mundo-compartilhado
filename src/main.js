@@ -1,8 +1,3 @@
-// ============================================================
-//  main.js — DEV 1
-//  Integração geral: une todos os módulos e roda o loop
-// ============================================================
-
 import * as THREE from 'three';
 import { createScene } from './scene.js';
 import { createEnvironment } from './environment.js';

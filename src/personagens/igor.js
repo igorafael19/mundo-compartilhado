@@ -2,16 +2,7 @@
 //  PERSONAGEM DO IGOR
 //  Spider-Man 2099 (Marvel Future Fight)
 //  https://sketchfab.com/3d-models/spider-man-2099-marvel-future-fight-heroes-0ae1513e75d64c88824d93e66c9833b5
-// ============================================================
-//
-//  Este arquivo define UM personagem. Ele aparece sozinho na
-//  cena e na UI — não precisa editar nenhum outro arquivo.
-//
-//  Como adicionar o SEU personagem:
-//   1. Baixe o modelo .glb do Sketchfab e coloque em public/models/
-//   2. Copie este arquivo com o seu nome (ex: personagens/fulano.js)
-//   3. Ajuste os campos abaixo
-// ============================================================
+
 
 export default {
   // identificação

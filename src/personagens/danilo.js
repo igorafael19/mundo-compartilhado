@@ -2,10 +2,6 @@
 //  PERSONAGEM DO DANILO
 //  Hulk (Marvel Future Fight — Brand New Day)
 //  https://sketchfab.com/3d-models/hulk-brand-new-day-marvel-future-fight-ce63f355567040f598107c137fd60718
-// ============================================================
-//  Coloque este arquivo em  src/personagens/  e o Hulk aparece
-//  sozinho na cena. O modelo .glb deve estar em  public/models/.
-// ============================================================
 
 export default {
   key: 'hulk',
