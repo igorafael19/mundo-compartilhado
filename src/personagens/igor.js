@@ -8,7 +8,7 @@ export default {
   // identificação
   key: 'spiderman',          // id interno, único (sem espaços)
   dono: 'Igor',              // quem é responsável por este personagem
-  nome: '🕷️ Spider-Man 2099', // nome mostrado na UI
+  nome: 'Spider-Man 2099', // nome mostrado na UI
   cor: '#c0392b',            // cor dos botões na UI
   ordem: 1,                  // ordem de exibição na lista (menor = primeiro)
 

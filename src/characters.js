@@ -207,7 +207,7 @@ function loadCharacter(scene, key) {
 // ── Carrega todos os personagens registrados na pasta ─────
 export async function loadAllCharacters(scene) {
   await Promise.all(PERSONAGENS.map(cfg => loadCharacter(scene, cfg.key)));
-  console.log('\n🎬 Todos os personagens carregados!');
+  console.log('\nTodos os personagens carregados!');
 }
 
 // ── Trava os nós raiz (chamar no loop, após mixer.update) ──

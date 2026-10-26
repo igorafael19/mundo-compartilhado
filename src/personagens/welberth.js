@@ -6,7 +6,7 @@
 export default {
   key: 'rhino',
   dono: 'Welberth',
-  nome: '🦏 Rhino',
+  nome: 'Rhino',
   cor: '#7f8c8d',
   ordem: 3,
 
