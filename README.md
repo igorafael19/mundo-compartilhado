@@ -42,16 +42,10 @@ src/
     └── emilly.js       # Goku
 ```
 
-### Adicionar um personagem
-
-1. Baixe um modelo `.glb` animado do [Sketchfab](https://sketchfab.com/3d-models?features=downloadable&animated=1) e coloque em `public/models/`
-2. Crie `src/personagens/seu-nome.js` seguindo o modelo dos arquivos existentes
-3. Ajuste `path`, `targetHeight`, `position`, `rotation` e `moves`
-
 O personagem aparece sozinho na cena e no painel de controle.
 
 ## Tecnologias
 
-- Three.js — renderização 3D
-- Vite — build e servidor de desenvolvimento
+- Three.js - renderização 3D
+- Vite - build e servidor de desenvolvimento
 - Modelos GLB do Sketchfab
