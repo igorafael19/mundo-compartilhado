@@ -2,11 +2,12 @@
 //  PERSONAGEM DA EMILLY
 //  Son Goku (Dragon Ball)
 //  https://sketchfab.com/3d-models/son-goku-026e3425157a4dfd89bf1b7fdc120e16
+// ============================================================
 
 export default {
   key: 'goku',
-  dono: 'Emilly',
-  nome: 'Goku',
+  dono: 'Emylle',
+  nome: '⭐ Goku',
   cor: '#f39c12',
   ordem: 4,
 
