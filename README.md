@@ -10,7 +10,7 @@ Quatro personagens animados num posto de gasolina estilo Toy Story, cada um com 
 | Spider-Man 2099 | Igor | Parado / Andar / Ataque |
 | Hulk | Danilo | Parado / Andar / Ataque |
 | Rhino | Welberth | Parado / Inquieto / Ultimate |
-| Goku | Emilly | Parado / Pose de luta / Kamehameha |
+| Goku | Emylle | Parado / Pose de luta / Kamehameha |
 
 ## Como rodar
 
