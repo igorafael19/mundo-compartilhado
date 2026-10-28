@@ -6,7 +6,7 @@
 
 export default {
   key: 'goku',
-  dono: 'Emylle',
+  dono: 'Emilly',
   nome: '⭐ Goku',
   cor: '#f39c12',
   ordem: 4,
