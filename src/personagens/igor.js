@@ -14,8 +14,8 @@ export default {
 
   // modelo
   path: '/models/spider-man_2099_marvel_future_fight_heroes.glb',
-  targetHeight: 3.5,         // altura final na cena (auto-escala)
-  position: [-6, 2],         // posição no chão [x, z]  (y é automático)
+  targetHeight: 1.5,         // altura final na cena (auto-escala)
+  position: [-6, 3],         // posição no chão [x, z]  (y é automático)
   rotation: 0.3,             // giro em torno do eixo Y (radianos)
 
   // animações: índices reais do GLB. O 1º é o "parado" inicial.

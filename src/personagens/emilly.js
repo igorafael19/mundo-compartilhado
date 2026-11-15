@@ -12,7 +12,7 @@ export default {
   ordem: 4,
 
   path: '/models/son_goku.glb',
-  targetHeight: 3.5,
+  targetHeight: 1.5,
   position: [3, 6],
   rotation: -0.5,
 

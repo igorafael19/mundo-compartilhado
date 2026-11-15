@@ -18,7 +18,7 @@ export function createControls(camera, domElement) {
   controls.minDistance = 4;
   controls.maxDistance = 40;
   controls.maxPolarAngle = Math.PI / 2.05; // não vai abaixo do chão
-  controls.target.set(0, 2.5, 4);
+  controls.target.set(0, 1.5, 3);
   return controls;
 }
 
@@ -49,7 +49,7 @@ export function createAnimationUI(chars) {
 
   // Título do painel
   const titulo = document.createElement('p');
-  titulo.textContent = 'Controle de Animações — Posto de Gasolina';
+  titulo.textContent = '🎬 Controle de Animações — Cidade';
   titulo.style.cssText = 'color: white; font-size: 13px; font-weight: bold; text-align: center; margin-bottom: 4px;';
   panel.appendChild(titulo);
 

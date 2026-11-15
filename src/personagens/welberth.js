@@ -11,7 +11,7 @@ export default {
   ordem: 3,
 
   path: '/models/rhino_-_marvel_strike_force.glb',
-  targetHeight: 4.0,         // grande, menor que o Hulk
+  targetHeight: 2.2,         // grande, menor que o Hulk
   position: [-3, 6],
   rotation: 0.5,
 

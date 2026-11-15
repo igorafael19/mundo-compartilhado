@@ -11,8 +11,8 @@ export default {
   ordem: 2,
 
   path: '/models/hulk_brand_new_day_-_marvel_future_fight.glb',
-  targetHeight: 4.5,         // o maior de todos
-  position: [6, 2],
+  targetHeight: 2.2,         // o maior de todos
+  position: [-1, 1],
   rotation: -0.3,
 
   moves: [
