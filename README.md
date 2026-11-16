@@ -1,7 +1,7 @@
-# Posto de Gasolina 3D - Three.js
+# Cidade 3D - Three.js
 
 Cena 3D interativa feita com [Three.js](https://threejs.org/) + [Vite](https://vitejs.dev/).
-Quatro personagens animados num posto de gasolina estilo Toy Story, cada um com 3 animações controláveis por botões.
+Quatro personagens animados em uma cidade, cada um com 3 animações controláveis por botões.
 
 ## Personagens
 
