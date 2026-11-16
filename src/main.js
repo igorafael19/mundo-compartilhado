@@ -5,31 +5,36 @@ import { loadAllCharacters, mixers, chars, aplicarRootLocks } from './characters
 import { createControls, createAnimationUI } from './controls.js';
 
 // ── Hot-reload: sempre recarrega a página inteira ─────────
-//  Cena 3D tem estado global (chars, mixers). Reload parcial
-//  cria instâncias duplicadas e bugs. Full reload resolve.
 if (import.meta.hot) {
   import.meta.hot.accept(() => window.location.reload());
 }
 
-// ── Inicialização ─────────────────────────────────────────
-const { scene, camera, renderer } = createScene();
+// ── Inicialização (async para evitar top-level await no build) ──
+async function init() {
+  const { scene, camera, renderer } = createScene();
 
-createEnvironment(scene);
-await loadAllCharacters(scene);
+  createEnvironment(scene);
+  await loadAllCharacters(scene);
 
-const controls = createControls(camera, renderer.domElement);
-createAnimationUI(chars);
+  const controls = createControls(camera, renderer.domElement);
+  createAnimationUI(chars);
 
-// ── Loop principal ────────────────────────────────────────
-const clock = new THREE.Clock();
+  window.__chars = chars;
+  window.__THREE = THREE;
 
-function animate() {
-  requestAnimationFrame(animate);
-  const delta = clock.getDelta();
-  mixers.forEach(m => m.update(delta));
-  aplicarRootLocks();   // trava escala/posição dos nós raiz
-  controls.update();
-  renderer.render(scene, camera);
+  // ── Loop principal ────────────────────────────────────────
+  const clock = new THREE.Clock();
+
+  function animate() {
+    requestAnimationFrame(animate);
+    const delta = clock.getDelta();
+    mixers.forEach(m => m.update(delta));
+    aplicarRootLocks();   // trava escala/posição dos nós raiz
+    controls.update();
+    renderer.render(scene, camera);
+  }
+
+  animate();
 }
 
-animate();
+init();
